@@ -6,6 +6,13 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-  cout << "Hi lol" << endl;
+  if (argc==1){
+    cout<<"Too few arguments\n";
+  }
+  else{
+    cout << "Hello ";
+    cout << argv[1];
+
+  }
   return 0;
 }
